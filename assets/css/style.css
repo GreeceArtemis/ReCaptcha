@@ -14,8 +14,12 @@ h1{
 }
 .aleatorio{
   display: inline-block;
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 66px;
+  text-align: center;
 width: 96%;
-height: 100px;
+height: auto;
+    padding: 14px 0px;
 background-color: white;
 margin: 3% 2%;
 }
@@ -27,13 +31,12 @@ margin: 3% 2%;
     background-color: #F9E777;
 }
 .iconos{
-  width: 8%;
+  width: 3%;
     height: 100px;
-    background-color: red;
     color: white;
     display: inline-block;
     margin: 10px 1%;
-    position: relative;
+    position: absolute;
 }
 .iconos div{
   height: 50%;
@@ -46,6 +49,10 @@ margin: 3% 2%;
 }
 .imgCaptcha img{
   margin: 10px;
+  margin-left: 65px;
     height: 100px;
     width: 100%;
+}
+.aleatorio div{
+  display: inline-block;
 }
