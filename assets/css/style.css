@@ -1,0 +1,51 @@
+body{
+  padding-left: 33%;
+padding-right: 33%;
+}
+h1{
+  text-align: center;
+}
+.contenedor{
+  display: inline-block;
+  width: 500px;
+  height: 260px;
+  background-color: #8B1E2E;
+
+}
+.aleatorio{
+  display: inline-block;
+width: 96%;
+height: 100px;
+background-color: white;
+margin: 3% 2%;
+}
+.ingresar{
+  display: inline-block;
+    height: 100px;
+    width: 45%;
+    margin: 10px 10px;
+    background-color: #F9E777;
+}
+.iconos{
+  width: 8%;
+    height: 100px;
+    background-color: red;
+    color: white;
+    display: inline-block;
+    margin: 10px 1%;
+    position: relative;
+}
+.iconos div{
+  height: 50%;
+  font-size: 30px;
+}
+.imgCaptcha{
+  display: inline-block;
+
+  width: 35%;
+}
+.imgCaptcha img{
+  margin: 10px;
+    height: 100px;
+    width: 100%;
+}
